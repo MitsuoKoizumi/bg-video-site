@@ -147,3 +147,17 @@ $text-color:#fff;
         }
     }
 }
+
+@media(max-width:798px){
+    .showcase, .showcase header{
+        padding:40px;
+    }
+    .text{
+        & h2{
+            font-size:3em;
+        }
+        & h3{
+            font-size:2em;
+        }
+    }
+}
