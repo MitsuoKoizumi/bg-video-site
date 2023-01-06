@@ -99,3 +99,20 @@ $text-color:#fff;
     background-color: #03a9f4;
     mix-blend-mode: overlay;
 }
+
+.social{
+    position:absolute;
+    bottom:20px;
+    display:flex;
+    & li{
+        list-style: none;
+        & a{
+            display:inline-block;
+            margin-right:20px;
+            transition:0.2s;
+            &:hover{
+                transform:translateY(-15px);
+            }
+        }
+    }
+}
