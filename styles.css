@@ -25,6 +25,7 @@
   justify-content: space-between;
   width: 100%;
   padding: 40px 100px;
+  z-index: 1000;
 }
 .showcase video {
   position: absolute;
@@ -51,4 +52,8 @@
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.text {
+  z-index: 10;
 }/*# sourceMappingURL=styles.css.map */
