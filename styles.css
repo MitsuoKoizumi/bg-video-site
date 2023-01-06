@@ -56,6 +56,23 @@
   top: 0;
   right: 0;
   z-index: -1;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu ul {
+  list-style: none;
+  font-size: 1.2em;
+}
+.menu a {
+  text-decoration: none;
+  color: #111;
+  transition: 0.2s;
+}
+.menu a:hover {
+  color: #03a9f4;
 }
 
 .text {
