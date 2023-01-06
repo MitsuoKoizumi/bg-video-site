@@ -36,6 +36,10 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+.showcase.active {
+  position: absolute;
+  right: 300px;
+}
 
 .toggle {
   background: url("./images/menu.png");
@@ -50,7 +54,7 @@
 .menu {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: -1;
 }
 
