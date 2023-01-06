@@ -50,6 +50,9 @@ $text-color:#fff;
     background-size:30px;
     background-position: center;
     cursor:pointer;
+    &.active{
+        background: url("./images/close.png") no-repeat;
+    }
 }
 
 .menu{

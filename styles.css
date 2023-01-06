@@ -50,6 +50,9 @@
   background-position: center;
   cursor: pointer;
 }
+.toggle.active {
+  background: url("./images/close.png") no-repeat;
+}
 
 .menu {
   position: absolute;
